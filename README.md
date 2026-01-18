@@ -55,6 +55,14 @@ This project demonstrates skills in **backend development, database management, 
 
 ---
 
+## Future Improvements
 
-git clone https://github.com/yourusername/student-performance-dashboard.git
-cd student-performance-dashboard
+- Add edit/update/delete student functionality from the frontend.
+- Add charts and analytics (top performers, average class score).
+- Integrate authentication for teachers/admin.
+- Deploy to AWS / GCP to make it fully cloud-native.
+---
+
+## Author
+
+**JAYANTH D R **
