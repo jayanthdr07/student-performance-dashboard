@@ -54,7 +54,12 @@ This project demonstrates skills in **backend development, database management, 
 - **Recruiters:** Evaluate candidate’s full-stack and backend skill set.  
 
 ---
+## SCREENSHOTS
 
+### Dashboard
+![Dashboard](ds.png)
+
+---
 ## Future Improvements
 
 - Add edit/update/delete student functionality from the frontend.
