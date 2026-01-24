@@ -1,27 +1,65 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
   <title>Student Dashboard</title>
-  <style>
-    table { border-collapse: collapse; width: 80%; margin: 20px auto; }
-    th, td { border: 1px solid #ccc; padding: 8px; text-align: center; }
-    th { background-color: #f4f4f4; }
-    body { font-family: Arial; }
-  </style>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-<h2 style="text-align:center">Student Performance Dashboard</h2>
-<table id="studentsTable">
-  <thead>
-    <tr>
-      <th>ID</th><th>Name</th><th>Marks1</th><th>Marks2</th>
-      <th>Attendance</th><th>Total</th><th>Percentage</th><th>Result</th>
-      <th>Grade</th><th>Remark</th><th>Fail Reason</th>
-    </tr>
-  </thead>
-  <tbody></tbody>
-</table>
 
-<script src="script.js"></script>
+  <div class="dashboard">
+
+    <aside class="sidebar">
+      <h2 class="logo">🎓 Student</h2>
+      <ul class="menu">
+        <li class="active">Dashboard</li>
+        <li>Courses</li>
+        <li>Marks</li>
+        <li>Attendance</li>
+        <li>Profile</li>
+        <li>Logout</li>
+      </ul>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main">
+
+      <!-- Header -->
+      <div class="header">
+        <h1>Welcome, Jayanth</h1>
+        <span class="theme">🌙</span>
+      </div>
+      <div class="card notifications">
+        <h3>🔔 Notifications</h3>
+        <ul>
+          <li>Java assignment due tomorrow</li>
+          <li>DSA test on Monday</li>
+          <li>Web project submission</li>
+        </ul>
+      </div>
+
+      <div class="stats">
+        <div class="card stat">
+          <p>Courses</p>
+          <h2>6</h2>
+        </div>
+        <div class="card stat">
+          <p>Assignments</p>
+          <h2>12</h2>
+        </div>
+        <div class="card stat">
+          <p>Attendance</p>
+          <h2>92%</h2>
+        </div>
+        <div class="card stat">
+          <p>CGPA</p>
+          <h2>8.6</h2>
+        </div>
+      </div>
+
+    </main>
+  </div>
+
 </body>
 </html>
