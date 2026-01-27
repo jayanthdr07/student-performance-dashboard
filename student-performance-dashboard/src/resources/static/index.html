@@ -3,34 +3,32 @@
 <head>
   <meta charset="UTF-8">
   <title>Student Dashboard</title>
-  <link rel="stylesheet" href="style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <div class="dashboard">
+<div class="dashboard">
+  <aside class="sidebar">
+    <h2 class="logo">🎓 Student</h2>
+    <ul class="menu">
+      <li class="active" data-page="dashboard">Dashboard</li>
+      <li data-page="courses">Courses</li>
+      <li data-page="marks">Marks</li>
+      <li data-page="attendance">Attendance</li>
+      <li data-page="profile">Profile</li>
+      <li data-page="logout">Logout</li>
+    </ul>
+  </aside>
 
-    <aside class="sidebar">
-      <h2 class="logo">🎓 Student</h2>
-      <ul class="menu">
-        <li class="active">Dashboard</li>
-        <li>Courses</li>
-        <li>Marks</li>
-        <li>Attendance</li>
-        <li>Profile</li>
-        <li>Logout</li>
-      </ul>
-    </aside>
+  <main class="main">
+    <div class="header">
+      <h1>Welcome, Jayanth</h1>
+      <span class="theme" id="themeToggle">🌙</span>
+    </div>
 
-    <!-- Main Content -->
-    <main class="main">
-
-      <!-- Header -->
-      <div class="header">
-        <h1>Welcome, Jayanth</h1>
-        <span class="theme">🌙</span>
-      </div>
-      <div class="card notifications">
+    <div id="dashboard" class="page active">
+      <div class="card">
         <h3>🔔 Notifications</h3>
         <ul>
           <li>Java assignment due tomorrow</li>
@@ -40,26 +38,73 @@
       </div>
 
       <div class="stats">
-        <div class="card stat">
-          <p>Courses</p>
-          <h2>6</h2>
-        </div>
-        <div class="card stat">
-          <p>Assignments</p>
-          <h2>12</h2>
-        </div>
-        <div class="card stat">
-          <p>Attendance</p>
-          <h2>92%</h2>
-        </div>
-        <div class="card stat">
-          <p>CGPA</p>
-          <h2>8.6</h2>
-        </div>
+        <div class="card stat"><p>Courses</p><h2>6</h2></div>
+        <div class="card stat"><p>Assignments</p><h2>12</h2></div>
+        <div class="card stat"><p>Attendance</p><h2>92%</h2></div>
+        <div class="card stat"><p>CGPA</p><h2>8.6</h2></div>
       </div>
+    </div>
 
-    </main>
-  </div>
+    <div id="courses" class="page">
+      <div class="card">
+        <h3>📚 My Courses</h3>
+        <ul>
+          <li>Java Programming</li>
+          <li>Data Structures</li>
+          <li>Web Development</li>
+          <li>DBMS</li>
+          <li>Operating Systems</li>
+        </ul>
+      </div>
+    </div>
 
+    <div id="marks" class="page">
+      <div class="card">
+        <h3>📝 Subject-wise Marks</h3>
+        <table>
+          <tr><th>Subject</th><th>Internal</th><th>External</th><th>Total</th><th>Grade</th></tr>
+          <tr><td>Java Programming</td><td>26</td><td>58</td><td>84</td><td>A</td></tr>
+          <tr><td>Data Structures</td><td>27</td><td>60</td><td>87</td><td>A</td></tr>
+          <tr><td>Web Development</td><td>25</td><td>57</td><td>82</td><td>B+</td></tr>
+          <tr><td>DBMS</td><td>28</td><td>61</td><td>89</td><td>A+</td></tr>
+          <tr><td>Operating Systems</td><td>26</td><td>59</td><td>85</td><td>A</td></tr>
+        </table>
+      </div>
+    </div>
+
+    <div id="attendance" class="page">
+      <div class="card">
+        <h3>📅 Subject-wise Attendance</h3>
+        <table>
+          <tr><th>Subject</th><th>Attended</th><th>Total</th><th>%</th></tr>
+          <tr><td>Java Programming</td><td>42</td><td>45</td><td>93%</td></tr>
+          <tr><td>Data Structures</td><td>40</td><td>44</td><td>91%</td></tr>
+          <tr><td>Web Development</td><td>38</td><td>42</td><td>90%</td></tr>
+          <tr><td>DBMS</td><td>41</td><td>44</td><td>93%</td></tr>
+          <tr><td>Operating Systems</td><td>39</td><td>43</td><td>91%</td></tr>
+        </table>
+        <p><strong>Overall Attendance:</strong> 92%</p>
+      </div>
+    </div>
+
+    <div id="profile" class="page">
+      <div class="card">
+        <h3>👤 Profile</h3>
+        <p><strong>Name:</strong> Jayanth</p>
+        <p><strong>Branch:</strong> Computer Science</p>
+        <p><strong>Year:</strong> 3rd Year</p>
+      </div>
+    </div>
+
+    <div id="logout" class="page">
+      <div class="card">
+        <h3>🚪 Logout</h3>
+        <button onclick="alert('Session Ended')">Confirm</button>
+      </div>
+    </div>
+  </main>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
