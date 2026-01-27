@@ -58,6 +58,11 @@ This project demonstrates skills in **backend development, database management, 
 ### Dashboard
 ![Dashboard](ds.png)
 
+### Marks
+![Marks](marks.png)
+
+### Attendance
+![Attendance](att.png)
 ---
 ## Future Improvements
 
