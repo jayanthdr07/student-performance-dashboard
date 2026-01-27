@@ -1,12 +1,26 @@
+:root {
+  --bg: #f4f6f9;
+  --card: #ffffff;
+  --text: #333;
+  --accent: #4f46e5;
+}
+
+body.dark {
+  --bg: #111827;
+  --card: #1f2933;
+  --text: #f9fafb;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Segoe UI", sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 body {
-  background: #f4f6fb;
+  background: var(--bg);
+  color: var(--text);
 }
 
 .dashboard {
@@ -14,16 +28,10 @@ body {
   min-height: 100vh;
 }
 
-/* Sidebar */
 .sidebar {
   width: 220px;
-  background: #5a5fd6;
-  color: #fff;
+  background: var(--card);
   padding: 20px;
-}
-
-.logo {
-  margin-bottom: 30px;
 }
 
 .menu {
@@ -31,63 +39,61 @@ body {
 }
 
 .menu li {
-  padding: 12px 10px;
-  margin-bottom: 10px;
-  border-radius: 8px;
+  padding: 12px;
   cursor: pointer;
-}
-
-.menu li:hover,
-.menu .active {
-  background: rgba(255, 255, 255, 0.2);
-}
-
-/* Main Content */
-.main {
-  flex: 1;
-  padding: 25px;
-}
-
-/* Header */
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
-}
-
-/* Cards */
-.card {
-  background: #fff;
-  padding: 20px;
-  border-radius: 14px;
-  margin-bottom: 20px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
-}
-
-/* Notifications */
-.notifications ul {
-  margin-top: 10px;
-  padding-left: 20px;
-}
-
-.notifications li {
+  border-radius: 6px;
   margin-bottom: 8px;
 }
 
-/* Stats */
+.menu li.active,
+.menu li:hover {
+  background: var(--accent);
+  color: #fff;
+}
+
+.main {
+  flex: 1;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.theme {
+  cursor: pointer;
+  font-size: 22px;
+}
+
+.card {
+  background: var(--card);
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
 .stats {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
 }
 
-.stat {
-  text-align: center;
+.page {
+  display: none;
 }
 
-.stat h2 {
-  color: #5a5fd6;
-  font-size: 32px;
-  margin-top: 5px;
+.page.active {
+  display: block;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
 }
