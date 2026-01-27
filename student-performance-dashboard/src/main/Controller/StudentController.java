@@ -8,7 +8,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/students")
-@CrossOrigin // allow frontend JS requests
+@CrossOrigin 
 public class StudentController {
     private final StudentService service;
 
@@ -26,3 +26,4 @@ public class StudentController {
         return service.addStudent(student);
     }
 }
+
