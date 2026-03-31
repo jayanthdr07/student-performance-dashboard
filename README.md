@@ -74,4 +74,4 @@ This project demonstrates skills in **backend development, database management, 
 
 ## Author
 
-**JAYANTH D R **
+**JAYANTH D R**
