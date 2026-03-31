@@ -53,7 +53,7 @@ This project demonstrates skills in **backend development, database management, 
 - **Recruiters:** Evaluate candidate’s full-stack and backend skill set.  
 
 ---
-## SCREENSHOTS
+## SCREENSHOTS.
 
 ### Dashboard
 ![Dashboard](ds.png)
