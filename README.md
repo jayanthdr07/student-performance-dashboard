@@ -6,7 +6,7 @@ A full-stack Student Performance Dashboard built with Java ,Spring Boot, MySQL, 
 
 The **Student Performance Dashboard** is a full-stack application built using **Java Spring Boot, MySQL, and Vanilla JavaScript/HTML**. It allows teachers and administrators to track student marks, attendance, grades, and generate detailed reports including fail reasons.
 
-This project demonstrates skills in **backend development, database management, REST API design, and full-stack integration** — perfect for a **Java Backend Developer portfolio**.
+This project demonstrates skills in **backend development, database management, REST API design, and full-stack integration** — perfect for a **Java Backend Developer portfolio**
 
 ---
 
