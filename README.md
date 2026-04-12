@@ -1,4 +1,4 @@
-87654321# *Student Performance Dashboard*
+987654321# *Student Performance Dashboard*
 
 A full-stack Student Performance Dashboard built with Java ,Spring Boot, MySQL, and Vanilla JS/HTML. Tracks student marks, attendance, grades, and fail reasons. Provides REST APIs for CRUD operations and displays analytics.
 
