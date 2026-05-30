@@ -45,7 +45,7 @@ This project demonstrates skills in **backend development, database management, 
 
 ---
 
-## Who Can Benefit,
+## Who Can Benefit.
 
 - **Backend Developers:** Showcase REST API and Spring Boot skills.  
 - **Database Enthusiasts:** Demonstrate SQL logic, calculated fields, and reporting.  
