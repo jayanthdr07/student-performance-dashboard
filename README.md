@@ -32,7 +32,7 @@ This project demonstrates skills in **backend development, database management, 
 
 ---
 
-## Tech Stack Used
+## *Tech Stack Used*
 
 | Layer      | Technology                  |
 |-----------|----------------------------|
