@@ -21,7 +21,7 @@ This project demonstrates skills in **backend development, database management, 
 
 ---
 
-## Features
+## *Features*
 
 - View all students with marks, attendance, grades, remarks, and fail reasons.  
 - Automatically calculate total marks, percentage, result, and grade based on predefined logic.  
