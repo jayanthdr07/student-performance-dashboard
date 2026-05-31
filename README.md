@@ -62,7 +62,7 @@ This project demonstrates skills in **backend development, database management, 
 ### Marks
 ![Marks](marks.png)
 
-### Attendance
+### *Attendance*
 ![Attendance](att.png)
 ---
 ## Future Improvements
