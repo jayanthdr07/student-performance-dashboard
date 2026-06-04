@@ -11,7 +11,7 @@ This project demonstrates skills in **backend development, database management, 
 
 ---
 
-## *Objectives*/
+## *Objectives*
 
 - Build a cloud-ready full-stack application with minimal folder structure.  
 - Track student marks, attendance, grades, remarks, and fail reasons.  
