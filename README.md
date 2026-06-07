@@ -54,7 +54,7 @@ Developer portfolio
 - **Recruiters:** Evaluate candidate’s full-stack and backend skill set.  
 
 ---
-## *SCREENSHOTS*
+### *SCREENSHOTS*
 
 ### Dashboard
 ![Dashboard](ds.png)
