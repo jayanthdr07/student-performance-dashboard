@@ -75,4 +75,4 @@ Developer portfolio
 
 ## Author
 
-**JAYANTH D R**
+*JAYANTH D R*
